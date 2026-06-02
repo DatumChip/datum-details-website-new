@@ -17,3 +17,6 @@ npm-debug.log*
 # Large raw source assets — originals are kept locally / in external storage.
 # The web-optimized images the site actually serves live in datum-details/assets.
 /Datum Details Website Files/
+
+# Old V1 React/Vite prototype — reference only, kept locally, not in the repo.
+/old-v1/
