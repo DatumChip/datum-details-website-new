@@ -1,0 +1,9 @@
+# Old same-domain path → new home page.
+/datum-details        /            301
+
+# Keep development / reference files in the repo but out of the live site.
+/CLAUDE.md            /404.html    404
+/SITE_BRIEF.md        /404.html    404
+/BACKEND_BRIEF.md     /404.html    404
+/make_assets.py       /404.html    404
+/cloudflare-worker/*  /404.html    404
