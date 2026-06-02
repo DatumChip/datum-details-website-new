@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Netlify
+.netlify/
+
+# Large raw source assets — originals are kept locally / in external storage.
+# The web-optimized images the site actually serves live in datum-details/assets.
+/Datum Details Website Files/

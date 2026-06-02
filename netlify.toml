@@ -1,0 +1,15 @@
+# Datum Details — Netlify configuration (repo root)
+# The site is a static, no-build site living in /datum-details.
+# Netlify publishes that subfolder directly.
+
+[build]
+  publish = "datum-details"
+
+# Catch-all from the project brief. It only ever applies to visitors with the
+# Netlify Identity "admin" role, so for normal visitors it is a no-op and the
+# multi-page site resolves normally. Safe to remove if unused.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  conditions = {Role = ["admin"]}
