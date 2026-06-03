@@ -53,15 +53,14 @@ Reference/dev files (`CLAUDE.md`, the `*_BRIEF.md` files, `make_assets.py`, and
 `cloudflare-worker/`) stay in the repo but are 404'd on the live site via
 `_redirects`.
 
-## Configuration TODOs (search the codebase for each)
+## Configuration (live)
 
-| Placeholder | File | What it needs |
-|---|---|---|
-| `REPLACE_WITH_CLOUDFLARE_WORKER_URL` | `js/contact.js` | URL of the deployed contact Worker |
-| `REPLACE_WITH_CLOUDFLARE_ANALYTICS_TOKEN` | all HTML pages | Cloudflare Web Analytics beacon token |
-
-The contact Worker (`cloudflare-worker/contact-worker.js`) also needs a **Resend
-API key** and a bound **KV namespace** when deployed — see `BACKEND_BRIEF.md`.
+- **Contact form** → Cloudflare Worker URL is set in `js/contact.js`.
+- **Analytics** → Cloudflare Web Analytics token is set in all HTML pages.
+- The contact Worker (`cloudflare-worker/contact-worker.js`) runs on Cloudflare
+  with a **Resend API key**, a bound **KV namespace** (`SUBMISSIONS`), and
+  `FROM_EMAIL` / `TO_EMAIL` / `ADMIN_PASSWORD` set as Worker variables. View
+  stored submissions in a table at `https://<worker-url>/admin`.
 
 ## Regenerating assets
 
