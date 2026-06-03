@@ -25,6 +25,32 @@
   <meta property="og:image" content="https://datumdetails.com/assets/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+
+  <!-- AboutPage structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Datum Details",
+    "url": "https://datumdetails.com/about.html",
+    "description": "Datum Details grew out of Datum Homes, a Calgary custom home builder, bringing builder-level expertise to the ongoing care of your home.",
+    "mainEntity": {
+      "@type": "LocalBusiness",
+      "name": "Datum Details",
+      "url": "https://datumdetails.com/",
+      "telephone": "+1-587-843-6101",
+      "parentOrganization": { "@type": "Organization", "name": "Datum Homes" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1918 9 Ave SE",
+        "addressLocality": "Calgary",
+        "addressRegion": "AB",
+        "postalCode": "T2G 0V2",
+        "addressCountry": "CA"
+      }
+    }
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
@@ -100,24 +126,24 @@
         </div>
         <div class="grid grid-2" style="margin-top:56px;">
           <div class="card fade-in">
-            <img class="card__icon" loading="lazy" decoding="async" width="56" height="56" src="assets/icons/construction-hat.png" alt="">
-            <h4>Builder-level knowledge.</h4>
+            <h3>Builder-level knowledge.</h3>
             <p>We don't guess. The same expertise that builds custom homes goes into every repair, upgrade, and seasonal check &mdash; so things get diagnosed properly the first time.</p>
+            <span class="card__proof">Diagnosed right the first time.</span>
           </div>
           <div class="card fade-in delay-1">
-            <img class="card__icon" loading="lazy" decoding="async" width="56" height="56" src="assets/icons/hands.png" alt="">
-            <h4>A single point of contact.</h4>
+            <h3>A single point of contact.</h3>
             <p>One number. One relationship. No chasing trades, no juggling quotes. You call us, and we handle the rest.</p>
+            <span class="card__proof">One call handles everything.</span>
           </div>
           <div class="card fade-in delay-1">
-            <img class="card__icon" loading="lazy" decoding="async" width="56" height="56" src="assets/icons/receipt.png" alt="">
-            <h4>Documented standards.</h4>
+            <h3>Documented standards.</h3>
             <p>Every home, every visit, every decision &mdash; recorded. You always know what's been done, what's coming next, and why.</p>
+            <span class="card__proof">Nothing falls through the cracks.</span>
           </div>
           <div class="card fade-in delay-2">
-            <img class="card__icon" loading="lazy" decoding="async" width="56" height="56" src="assets/icons/manage.png" alt="">
-            <h4>Continuity.</h4>
+            <h3>Continuity.</h3>
             <p>The same people, every time. We get to know your home, so nothing starts from scratch and nothing slips through the cracks.</p>
+            <span class="card__proof">We know your home before we touch it.</span>
           </div>
         </div>
       </div>
@@ -166,7 +192,7 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span>&copy; 2025 Datum Details</span>
+        <span>&copy; 2026 Datum Details</span>
         <span class="group-tag"><a href="https://datumhomes.com" target="_blank" rel="noopener">Part of the Datum group</a></span>
       </div>
     </div>
