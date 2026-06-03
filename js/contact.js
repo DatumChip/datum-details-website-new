@@ -5,10 +5,9 @@
 (function () {
   'use strict';
 
-  // TODO: Replace with the deployed Cloudflare Worker URL.
-  // e.g. 'https://datum-details-contact.YOUR_SUBDOMAIN.workers.dev'
-  // or a custom route like 'https://datumdetails.com/api/contact'
-  const WORKER_URL = 'REPLACE_WITH_CLOUDFLARE_WORKER_URL';
+  // Deployed Cloudflare Worker that handles the contact form
+  // (source in cloudflare-worker/contact-worker.js).
+  const WORKER_URL = 'https://datum-details-contact.chip-17f.workers.dev';
 
   const form = document.getElementById('contact-form');
   if (!form) return;
