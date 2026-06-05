@@ -20,3 +20,9 @@ npm-debug.log*
 
 # Old V1 React/Vite prototype — reference only, kept locally, not in the repo.
 /old-v1/
+
+# Internal working documents — not for the public repo.
+SITE_BRIEF.md
+BACKEND_BRIEF.md
+CLAUDE.md
+make_assets.py
