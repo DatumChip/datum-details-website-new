@@ -619,7 +619,7 @@ body.menu-open .nav__mobile { opacity: 1; visibility: visible; }
 
 .guide-card { display: flex; flex-direction: column; height: 100%; }
 .guide-card .eyebrow { margin-bottom: 12px; }
-.guide-card h2 { font-size: 1.4rem; font-weight: 600; margin-bottom: 10px; letter-spacing: -0.01em; }
+.guide-card h2, .guide-card h3 { font-size: 1.4rem; font-weight: 600; margin-bottom: 10px; letter-spacing: -0.01em; }
 .guide-card p { color: rgba(244,243,239,0.72); font-size: 0.98rem; }
 .guide-card .guide-link { margin-top: auto; padding-top: 18px; color: var(--color-sage); font-weight: 500; font-size: 0.95rem; }
 .guide-card.is-soon { opacity: 0.55; }
